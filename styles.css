@@ -1,0 +1,91 @@
+body{
+    background-image: url("/images/pattern-background-desktop.svg");
+    text-align: center;
+}
+h1{
+    display: inline-block;
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.card{
+   text-align: center;
+   max-width: 300px;
+   min-width: 300px;
+   background-color: white;
+   border-radius: 10px;
+   margin: 8% auto;
+}
+.inner_card{
+    padding: 10px;
+}
+.innerbox{
+    margin:0 20% ;
+}
+.hero{
+    width: 300px;
+    border-radius:10px 10px 0 0 ;
+}
+.button{
+    color: white;
+    background-color: hsl(245, 75%, 65%);
+    max-width: 200px;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin: 2px 50px;
+    box-shadow: 1px 10px 20px hsl(245, 75%, 65%);
+}
+.button:hover{
+    border: 5px solid;
+    border-color: hsl(245, 75%, 65%);
+}
+.inner_box{
+    /* border: 1px solid red; */
+    margin: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.plan{
+    font-weight: bolder;
+    max-width: 100px;
+    margin-left: 50px;
+    /* display: block; */
+}
+.price{
+    opacity: 0.7;
+    max-width: 80px;
+    margin-left: 50px;
+}
+.alter{
+    color: blue;
+    text-decoration: underline;
+    float: right;
+    margin-bottom: 40px;
+}
+.alter , .cancel :hover{
+    cursor: pointer ;
+}
+.cancel{
+    margin-top: 35px;
+    /* float: right; */
+}
+.music{
+    width: 40px;
+    float: left;
+    margin: 0;
+}
+
+.in{
+    display: inline-block;
+    /* border: 1px solid; */
+    max-width: 150px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.footer{
+    display: inline-block;
+    margin: auto;
+   /* text-align: center; */
+}
